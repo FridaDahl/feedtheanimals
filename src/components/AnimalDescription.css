@@ -1,0 +1,43 @@
+.desDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-size: 1rem;
+}
+
+.desImg {
+    width: 50vw;
+    height: auto;
+    padding: 10px;
+}
+
+.mainLink {
+    color: black;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.desP {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+button {
+    display: block;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
