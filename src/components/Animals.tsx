@@ -50,6 +50,8 @@ export const Animals = () => {
 
             let timePassed = new Date().getTime() - feedTimestamp
             let timeLeft = 4*60*60*1000 - timePassed
+            console.log(animal.name + (4*60*60*1000 - timePassed));
+            
             printAnimals(timeLeft)
 
             let printFeedAlert = (<p className="alert">Mata mig tack!</p>)
@@ -70,7 +72,6 @@ export const Animals = () => {
 
         else if (isAnimalFed === null){
             localStorage.setItem(animal.name,JSON.stringify(new Date(animal.lastFed).getTime()));
-            return <></>
         }
     });
 
